@@ -1823,7 +1823,7 @@ public final class SCXMLParser {
                 append(l.getLineNumber()).append(":").
                 append(l.getColumnNumber()).append(" and digester match \"").
                 append(digester.getMatch()).append("\"");
-            log.warn(sb.toString());
+            //log.warn(sb.toString());
         }
     }
 
